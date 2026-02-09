@@ -2,7 +2,7 @@ import React from 'react'
 
 const RightCards = (props) => {
   return (
-    <div className='bg-white h-50 w-110 rounded-3xl relative z-2 shrink-0 '>
+    <div style={{boxShadow: props.code}} className='bg-white h-full w-110 rounded-3xl relative z-2 shrink-0'>
       <img className='absolute size-70 -left-12 -bottom-5 ' src={props.img} alt="" />
       <div className='absolute left-60 top-10'>
         <h2 className='text-xl font-bold font-sans tracking-wide '>{props.name}</h2>
